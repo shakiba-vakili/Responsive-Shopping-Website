@@ -6,7 +6,7 @@ A modern E-commerce shopping website built with React.js and styled using Tailwi
 
 - **React:** Utilizing React, a powerful JavaScript library for building dynamic user interfaces, ensures a smooth and interactive shopping experience.
 - **Tailwind CSS:** Tailwind CSS offers a utility-first approach, allowing for efficient styling and customization, resulting in a visually appealing and responsive design.
-- - **React + Vite:** This project leverages React with Vite, providing a lightning-fast development experience with built-in Hot Module Replacement (HMR) for instant code updates. Choose between Babel or SWC for Fast Refresh based on your preference and needs.
+- **React + Vite:** This project leverages React with Vite, providing a lightning-fast development experience with built-in Hot Module Replacement (HMR) for instant code updates. Choose between Babel or SWC for Fast Refresh based on your preference and needs.
 
 
 ### Features
