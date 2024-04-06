@@ -24,9 +24,9 @@ A modern E-commerce shopping website built with React.js and styled using Tailwi
 
 ## Additional Resources
 
-- **LinkedIn:** Connect with [Shakiba Sadat Vakili](https://www.linkedin.com/in/shakiba-vakili/) for professional networking.
+- **LinkedIn:** Let's connect for collaborations [Shakiba Sadat Vakili](https://www.linkedin.com/in/shakiba-vakili/) 
+- **Email:** Reach out to me at [shakibvakili@gmail.com](mailto:shakibvakili@gmail.com) for any inquiries or collaborations.
 - **GitHub:** Visit [@shakiba-vakili](https://github.com/shakiba-vakili) on GitHub for more projects and contributions.
-- **Email:** Reach out to Shakiba at [shakibvakili@gmail.com](mailto:shakibvakili@gmail.com) for any inquiries or collaborations.
 
 We're continuously improving and updating this project to provide an exceptional shopping platform. Feel free to contribute, provide feedback, or customize it to meet your specific requirements!
 
