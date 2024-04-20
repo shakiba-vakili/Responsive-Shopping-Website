@@ -5,10 +5,11 @@ const DarkMode = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
   );
-
+// 48
   const element = document.documentElement;
   console.log(element);
 
+  // set theme to local storage and html element
   useEffect(() => {
     localStorage.setItem("theme", theme);
     if (theme === "dark") {
