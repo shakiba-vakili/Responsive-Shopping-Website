@@ -12,6 +12,7 @@ A modern E-commerce shopping website built with React.js and styled using Tailwi
 ### Features
 
 - **Dark Mode Functionality:** Enjoy browsing the website in both light and dark modes for enhanced visual comfort, powered by the latest React technologies.
+- **React Slider Responsive Design:** the react-slick,slick-carousel
 - **Responsive Design:** The website is fully responsive, ensuring a seamless user experience across various devices and screen sizes.
 
 ### Get Started
