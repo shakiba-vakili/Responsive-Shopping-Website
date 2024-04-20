@@ -1,4 +1,4 @@
-# 🛍️ Shop
+# 🛍️ Responsive Shopping Website
 
 A modern E-commerce shopping website built with React.js and styled using Tailwind CSS.
 
