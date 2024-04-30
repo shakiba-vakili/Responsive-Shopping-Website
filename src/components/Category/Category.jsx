@@ -45,6 +45,23 @@ const Category = () => {
             <img src={Image2} alt="" className="w-[320px] absolute -right-7 lg:top-[30px]" />
           </div>
           {/* third col */}
+          <div className="cols-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end ">
+            <div className="">
+              <div className="mb-4 space-y-2">
+                <p className=" text-white">Enjoy</p>
+                <p className="text-2xl font-semibold mb-[2px]"> With</p>
+                <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">
+                  Laptop
+                </p>
+                <Button
+                  text="Browse"
+                  bgColor={"bg-white"}
+                  textColor={"text-primary"}
+                />
+              </div>
+            </div>
+            <img src={Image3} alt="" className="w-[250px] absolute top-1/2 -translate-y-1/2 -right-0" />
+          </div>
         </div>
       </div>
     </div>
@@ -52,3 +69,4 @@ const Category = () => {
 };
 
 export default Category;
+// 1:35
