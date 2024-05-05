@@ -23,11 +23,11 @@ const Banner = ({ data }) => {
           </div>
           {/* third  col */}
           <div className="flex flex-col justify-center gap-4 p-6 sm:p-8">
-            <p>{data.title2}</p>
-            <p>{data.title3}</p>
-            <p>{data.title4}</p>
-            <div className="">
-              <button>Shop Now</button>
+            <p className="font-bold text-xl ">{data.title2}</p>
+            <p className="text-3xl sm:text-5xl font-bold">{data.title3}</p>
+            <p className="text-sm tracking-wide leading-5">{data.title4}</p>
+            <div >
+              <button className="bg-primary text-white py-2 px-4 rounded">Shop Now</button>
             </div>
           </div>
         </div>
