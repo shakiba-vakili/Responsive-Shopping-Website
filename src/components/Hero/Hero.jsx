@@ -63,7 +63,7 @@ const Hero = ({handelOrderPopup}) => {
                         text="Shop By Category"
                         bgColor="bg-primary"
                         textColor="text-white"
-                        handelOrderPopup={handelOrderPopup}
+                        handeler={handelOrderPopup}
                       />
                     </div>
                   </div>
