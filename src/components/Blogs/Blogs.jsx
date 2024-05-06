@@ -34,9 +34,9 @@ const Blogs = () => {
         <Heading title={"Recent News"} subtitle={"Explore Our Blogs"} />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 justify-items-center">
-          {BlogData.map((data) => (
-            <div className="blog-post">
-              <div className="overflow-hidden mb-2">
+          {BlogData.map((data,index) => (
+            <div className="blog-post" key={index}>
+              <div className="overflow-hidden mb-2" >
                 <img
                   src={data.img}
                   alt="news images"

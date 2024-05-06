@@ -1,6 +1,6 @@
 import React from "react";
 import { FaMobileAlt } from "react-icons/fa";
-import { FaInstagram, FaLocationArrow, FaMobile } from "react-icons/fa6";
+import { FaInstagram, FaLocationArrow, FaFacebook } from "react-icons/fa6";
 
 const FooterLinks = [
   {
@@ -95,16 +95,16 @@ const Footer = () => {
                   <FaMobileAlt />
                   <p>+91 123456789</p>
                 </div>
-                <div className="">
+                <div className="flex items-center gap-3 mt-6">
                   <a href="#">
-                    <FaInstagram className="text-3xl hover:text-primary duration-200"/>
+                    <FaInstagram className="text-3xl hover:text-primary duration-200" />
                   </a>
                   <a href="#">
-                    <FaFacebook className="text-3xl hover:text-primary duration-200"/>
+                    <FaFacebook className="text-3xl hover:text-primary duration-200" />
                   </a>
-                  <a href="#">
-                    <FaLinkdin className="text-3xl hover:text-primary duration-200"/>
-                  </a>
+                  {/* <a href="#">
+                    <FaLinkdin className="text-3xl hover:text-primary duration-200" />
+                  </a> */}
                 </div>
               </div>
             </div>
