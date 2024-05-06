@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Category from "./components/Category/Category";
@@ -13,6 +13,9 @@ import Popup from "./components/Popup/Popup";
 
 import headphone from "../src/assets/hero/headphone.png";
 import smartwatch from "../src/assets/category/smartwatch2-removebg-preview.png";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const BannerData = {
   discount: "30% OFF",
@@ -39,10 +42,19 @@ const App = () => {
   const handelOrderPopup = () => {
     setOrderPopup(!orderPopup);
   };
+  useEffect(() => {
+    AOS.init({
+      duration:2000,
+      easing:"ease",
+      once:true,
+      mirror:false,
+      anchorPlacement:"top-bottom"
+    });
+  });
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
-      <Navbar  handelOrderPopup={handelOrderPopup}/>
-      <Hero handelOrderPopup={handelOrderPopup}/>
+      <Navbar handelOrderPopup={handelOrderPopup} />
+      <Hero handelOrderPopup={handelOrderPopup} />
       <Category />
       <Category2 />
       <Services />
