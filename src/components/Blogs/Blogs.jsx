@@ -33,26 +33,26 @@ const Blogs = () => {
       <div className="container">
         <Heading title={"Recent News"} subtitle={"Explore Our Blogs"} />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 sm:gap-4 md:gap-7">
-          {BlogData.map((data) => (
-            <div className="">
-              <div className="overflow-hidden mb-2">
-                <img
-                  src={data.img}
-                  alt=""
-                  className="w-full h-[220px] object-cover rounded-2xl hover:scale-105 duration-200 "
-                />
-              </div>
-              <div className="space-y-2">
-                <p className="text-xs text-gray-500">{data.published}</p>
-                <p className="font-bold line-clamp-1">{data.title}</p>
-                <p className="line-clamp-2 text-sm text-gray-600 dark:text-gray-400">
-                  {data.subtitle}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 gap-y-8 justify-items-center">
+  {BlogData.map((data) => (
+    <div className="blog-post">
+      <div className="overflow-hidden mb-2">
+        <img
+          src={data.img}
+          alt=""
+          className="w-full aspect-ratio-square object-cover rounded-2xl hover:scale-105 duration-200"
+        />
+      </div>
+      <div className="blog-post-content space-y-2">
+        <p className="text-xs text-gray-500">{data.published}</p>
+        <p className="font-bold line-clamp-1">{data.title}</p>
+        <p className="line-clamp-2 text-sm text-gray-600 dark:text-gray-400">
+          {data.subtitle}
+        </p>
+      </div>
+    </div>
+  ))}
+</div>
       </div>
     </div>
   );
