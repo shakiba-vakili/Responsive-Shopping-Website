@@ -6,11 +6,11 @@ const ProductCard = ({ data }) => {
       <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 place-items-center">
         {data.map((data) => (
           <div className="group" key={data.id}>
-            <div className=" relative space-y-3">
+            <div className=" relative">
               <img
                 src={data.img}
                 alt=""
-                className="[h-180px] w-[260px] object-cover rounded-md"
+                className="h-[180px] w-[260px] object-cover rounded-md"
               />
               {/* hover button */}
               <div className="hidden group-hover:flex absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2
@@ -19,10 +19,10 @@ const ProductCard = ({ data }) => {
               </div>
             </div>
             <div
-              className="leading-7"
+              className="leading-7 mt-3"
             >
-              <h2 className="font-semibold">{data.title}</h2>
-              <h2 className="font-bold">{data.price}</h2>
+              <h2 className="font-semibold text-center">{data.title}</h2>
+              <h2 className="font-bold text-center">{data.price}</h2>
 
             </div>
           </div>

@@ -5,8 +5,12 @@ import Category2 from "./components/Category/Category2";
 import Services from "./components/Services/Services";
 import Banner from './components/Banner/Banner';
 import Products from './components/Products/Products';
+import Blogs from "./components/Blogs/Blogs"
+import Partners from './components/Partners/Partners'
+
+
 import headphone from "../src/assets/hero/headphone.png";
-import smartwatch from "../src/assets/hero/watch.png";
+import smartwatch from "../src/assets/category/smartwatch2-removebg-preview.png";
 
 const BannerData = {
   discount: '30% OFF',
@@ -40,7 +44,8 @@ const App = () => {
       <Banner data={BannerData}/>
       <Products/>
       <Banner data={BannerData2}/>
-
+<Blogs/>
+<Partners/>
     </div>
   );
 };

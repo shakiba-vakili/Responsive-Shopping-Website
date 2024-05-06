@@ -29,7 +29,7 @@ const BlogData = [
 ];
 const Blogs = () => {
   return (
-    <div>
+    <div className="py-12">
       <div className="container">
         <Heading title={"Recent News"} subtitle={"Explore Our Blogs"} />
 
@@ -37,12 +37,18 @@ const Blogs = () => {
           {BlogData.map((data) => (
             <div className="">
               <div className="overflow-hidden mb-2">
-                <img src={data.img} alt="" className="w-fu;; h-[220px] object-cover rounded-2xl hover:scale-105 duration-200 " />
+                <img
+                  src={data.img}
+                  alt=""
+                  className="w-full h-[220px] object-cover rounded-2xl hover:scale-105 duration-200 "
+                />
               </div>
               <div className="space-y-2">
                 <p className="text-xs text-gray-500">{data.published}</p>
                 <p className="font-bold line-clamp-1">{data.title}</p>
-                <p className="line-clamp-2 text-sm text-gray-600 dark:text-gray-400">{data.subtitle}</p>
+                <p className="line-clamp-2 text-sm text-gray-600 dark:text-gray-400">
+                  {data.subtitle}
+                </p>
               </div>
             </div>
           ))}
