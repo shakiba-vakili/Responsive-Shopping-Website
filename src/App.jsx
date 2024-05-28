@@ -44,13 +44,12 @@ const App = () => {
   };
   useEffect(() => {
     AOS.init({
-      duration:2000,
-      easing:"ease",
-      once:true,
-      mirror:false,
-      anchorPlacement:"top-bottom"
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+      offset: 100,
     });
-  });
+  }, []);
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
       <Navbar handelOrderPopup={handelOrderPopup} />
