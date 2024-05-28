@@ -1,12 +1,13 @@
 # 🛍️ Responsive Shopping Website
 
 A modern E-commerce shopping website built with React.js and styled using Tailwind CSS.
-
+![Website Demo](demo.png)
 ## Technologies Used
 
 - **React:** Utilizing React, a powerful JavaScript library for building dynamic user interfaces, ensures a smooth and interactive shopping experience.
 - **Tailwind CSS:** Tailwind CSS offers a utility-first approach, allowing for efficient styling and customization, resulting in a visually appealing and responsive design.
 - **React + Vite:** This project leverages React with Vite, providing a lightning-fast development experience with built-in Hot Module Replacement (HMR) for instant code updates. Choose between Babel or SWC for Fast Refresh based on your preference and needs.
+![Website Demo](demo2.png)
 
 
 ### Features
@@ -14,6 +15,7 @@ A modern E-commerce shopping website built with React.js and styled using Tailwi
 - **Dark Mode Functionality:** Enjoy browsing the website in both light and dark modes for enhanced visual comfort, powered by the latest React technologies.
 - **React Slider Responsive Design:** Utilize react-slick to create a responsive slider for showcasing products.
 - **Responsive Design:** The website is fully responsive, ensuring a seamless user experience across various devices and screen sizes.
+![Website Demo](demo3.png)
 
 ### Get Started
 
